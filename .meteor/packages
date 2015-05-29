@@ -19,3 +19,4 @@ cfs:standard-packages
 cfs:ui
 cfs:autoform
 iron:router
+rajit:bootstrap3-datepicker

@@ -1,6 +1,15 @@
 <template name="createProject">
 	
-	{{> quickForm collection="Projects" id="insertProjectForm" type="insert"}}
-
-
+	<!-- {{> quickForm collection="Projects" id="insertProjectForm" type="insert"}}
+-->
+{{#autoForm collection="Projects" id="insertProjecForm" type="insert"}}
+<fieldset>
+	<legend>Add a Project</legend>
+	{{> afQuickField name='projectName'}}
+	{{> afQuickField name='description' rows=6}}
+	{{> afQuickField name='startDate' type="bootstrap-datepicker" buttonClasses="glyphicon glyphicon-calendar"}}
+	{{> afQuickField name='endDate' type="bootstrap-datepicker" buttonClasses="glyphicon glyphicon-calendar"}}
+</fieldset>
+<button type="submit" class="btn btn-primary">Insert</button>
+{{/autoForm}}
 </template>
