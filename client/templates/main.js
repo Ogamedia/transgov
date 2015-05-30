@@ -16,12 +16,3 @@ $('#phonenumber').modal('show');
 }
 
 })
-
-// Template.modals.events({
-// 	'click #myModalLabel': function () {
-// 		event.preventDefault();
-
-// 		// get inputValue
-// 		// this.
-// 	}
-// });
