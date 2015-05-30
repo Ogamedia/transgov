@@ -17,11 +17,11 @@ $('#phonenumber').modal('show');
 
 })
 
-Template.modals.events({
-	'click #myModalLabel': function () {
-		event.preventDefault();
+// Template.modals.events({
+// 	'click #myModalLabel': function () {
+// 		event.preventDefault();
 
-		// get inputValue
-		this.
-	}
-});
+// 		// get inputValue
+// 		// this.
+// 	}
+// });
