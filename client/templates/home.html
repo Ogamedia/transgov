@@ -1,166 +1,103 @@
 <template name="home">
 	<div id="wrap" class="home-1"> 
+		<!--======= BANNER =========-->
+		<div id="banner">
+			<div class="flex-banner">
+				<ul class="slides">
+					<!--======= SLIDER =========-->
+					<li> <img src="images/slider-img-1.jpg" alt="" > </li>
 
-		<!--======= TOP BAR =========-->
-		<div class="top-bar">
-			<div class="container">
-				<ul class="left-bar-side">
-					<li>
-						<p><i class="fa fa-phone"></i> Call Us Now : +030 222 222 </p>
-						<span>|</span> </li>
-						<li>
-							<p><i class="fa fa-envelope-o"></i> Info@transgov.com </p>
-							<span>|</span> </li>
-							<li>
-								<p><i class="fa fa-lock"></i> Login / Register </p>
-								<span>|</span> </li>
-							</ul>
-							<ul class="right-bar-side social_icons">
-								<li class="facebook"> <a href="index.html#."><i class="fa fa-facebook"></i> </a></li>
-								<li class="twitter"> <a href="index.html#."><i class="fa fa-twitter"></i> </a></li>
-								<li class="linkedin"> <a href="index.html#."><i class="fa fa-linkedin"></i> </a></li>
-								<li class="tumblr"> <a href="index.html#."><i class="fa fa-tumblr"></i> </a></li>
-							</ul>
-						</div>
-					</div>
-
-					<!--======= HEADER =========-->
-					<header class="sticky">
-						<div class="container"> 
-
-							<!--======= LOGO =========-->
-							<div class="logo"> <a href="index.html#."><img src="images/logo.png" alt="" ></a> </div>
-							<!--======= NAV =========-->
-							<nav> 
-
-								<!--======= MENU START =========-->
-								<ul class="ownmenu">
-									<li class="active"><a href="index.html">Home</a>
-										
-									</li>
-									<li><a href="list-of-projects">Projects </a></li>
-									<li><a href="/dashboard">My Dashboard</a></li>
-									
-									<li><a href="/signin">signin</a> 
-										<li><a href="index.html">signout</a> 
+					<!--======= SLIDER =========-->
+					<li> <img src="images/slider-img-2.jpg" alt="" > </li>
+				</ul>
+			</div>
 
 
-											<!--======= MEGA MENU =========-->
-											<div class="megamenu full-width">
-												<h6>All Pages</h6>
-												<div class="row nav-post">
+			<!--======= FIND PROPERTY =========-->
+			<div class="finder">
+				<div class="container">
+					<h1>Welcome to TransGov</h1>
 
+					<!--======= FORM SECTION =========-->
+					<div class="find-sec">
+						<ul class="row">
 
-													<div class="col-sm-4"> <img class="absu" src="images/nav-image.png" alt="" > </div>
-												</div>
-											</div>
-										</li>
-									</li>
-								</ul>
+							<!--======= FORM =========-->
+							<li class="col-sm-3">
+								<label>Choose The Region</label>
+								<select class="selectpicker">
+									<option>Choose Region</option>
+									<option>Greater Accra</option>
+									<option>Ashanti</option>
+									<option>Central</option>
+									<option>Eastern</option>
+									<option>Brong Ahafo</option>
+									<option>Volta</option>
+									<option>Northern</option>
+									<option>Upper East</option>
+									<option>Upper West</option>
+									<option>Western</option>
+								</select>
+							</li>
 
-								<!--======= SUBMIT COUPON =========-->
-								<div class="sub-nav-co"> <a href="index.html#."><i class="fa fa-search"></i></a> </div>
-							</nav>
-						</div>
-					</header>
+							<!--======= FORM =========-->
+							<li class="col-sm-3">
+								<label>District</label>
+								<select class="selectpicker">
+									<option>choose district</option>
+									<option>Akuapim South District</option>
+									<option>Afram Plains South District</option>
+									<option>Akuapim North District</option>
+									<option>Akuapim South Municipal District</option>
+									<option>Akyemansa District</option>
+									<option>Asuogyaman District</option>
+									<option>Ayensuano District</option>
+									<option>Atiwa District</option>
+									<option>Birim Central Municipal District</option>
+									<option>Birim North District</option>
+									<option>Birim South District</option>
+									<option>Denkyembour District</option>
+									<option>East Akim Municipal District</option>
+									<option>Fanteakwa District</option>
+									<option>Kwaebibirem District</option>
+									<option>Kwahu East District</option>
+									<option>Kwahu North District</option>
+									<option>Kwahu South District</option>
+									<option>Kwahu West Municipal District</option>
+									<option>Lower Manya Krobo District</option>
+									<option>New-Juaben Municipal District</option>
+									<option>Suhum/Kraboa/Coaltar District</option>
+									<option>Upper Manya Krobo District</option>
+									<option>Upper West Akim District</option>
+									<option>West Akim Municipal District</option>
+									<option>Yilo Krobo District</option>
+								</select>
+							</li>
 
-					<!--======= BANNER =========-->
-					<div id="banner">
-						<div class="flex-banner">
-							<ul class="slides">
-								<!--======= SLIDER =========-->
-								<li> <img src="images/slider-img-1.jpg" alt="" > </li>
+							<!--======= FORM =========-->
+							<li class="col-sm-3">
+								<label>Project Status</label>
+								<select class="selectpicker">
+									<option>All</option>
+									<option>On-Going</option>
+									<option>Halted</option>
+									<option>Completed</option>
+								</select>
+							</li>
 
-								<!--======= SLIDER =========-->
-								<li> <img src="images/slider-img-2.jpg" alt="" > </li>
-							</ul>
-						</div>
+							<!--======= FORM =========-->
+							<li class="col-sm-3">
+								<label>Project Type</label>
+								<select class="selectpicker">
+									<option>Health </option>
+									<option>Agriculture</option>
+									<option>Education</option>
+									<option>Multi Sectoral</option>
+								</select>
+							</li>
 
-
-						<!--======= FIND PROPERTY =========-->
-						<div class="finder">
-							<div class="container">
-								<h1>Welcome to TransGov</h1>
-
-								<!--======= FORM SECTION =========-->
-								<div class="find-sec">
-									<ul class="row">
-
-										<!--======= FORM =========-->
-										<li class="col-sm-3">
-											<label>Choose The Region</label>
-											<select class="selectpicker">
-												<option>Greater Accra</option>
-												<option>Ashanti</option>
-												<option>Central</option>
-												<option>Eastern</option>
-												<option>Brong Ahafo</option>
-												<option>Volta</option>
-												<option>Northern</option>
-												<option>Upper East</option>
-												<option>Upper West</option>
-												<option>Western</option>
-											</select>
-										</li>
-
-										<!--======= FORM =========-->
-										<li class="col-sm-3">
-											<label>District</label>
-											<select class="selectpicker">
-												<option>choose district</option>
-												<option>Akuapim South District</option>
-												<option>Afram Plains South District</option>
-												<option>Akuapim North District</option>
-												<option>Akuapim South Municipal District</option>
-												<option>Akyemansa District</option>
-												<option>Asuogyaman District</option>
-												<option>Ayensuano District</option>
-												<option>Atiwa District</option>
-												<option>Birim Central Municipal District</option>
-												<option>Birim North District</option>
-												<option>Birim South District</option>
-												<option>Denkyembour District</option>
-												<option>East Akim Municipal District</option>
-												<option>Fanteakwa District</option>
-												<option>Kwaebibirem District</option>
-												<option>Kwahu East District</option>
-												<option>Kwahu North District</option>
-												<option>Kwahu South District</option>
-												<option>Kwahu West Municipal District</option>
-												<option>Lower Manya Krobo District</option>
-												<option>New-Juaben Municipal District</option>
-												<option>Suhum/Kraboa/Coaltar District</option>
-												<option>Upper Manya Krobo District</option>
-												<option>Upper West Akim District</option>
-												<option>West Akim Municipal District</option>
-												<option>Yilo Krobo District</option>
-											</select>
-										</li>
-
-										<!--======= FORM =========-->
-										<li class="col-sm-3">
-											<label>Project Status</label>
-											<select class="selectpicker">
-												<option>All</option>
-												<option>On-Going</option>
-												<option>Halted</option>
-												<option>Completed</option>
-											</select>
-										</li>
-
-										<!--======= FORM =========-->
-										<li class="col-sm-3">
-											<label>Project Type</label>
-											<select class="selectpicker">
-												<option>Health </option>
-												<option>Agriculture</option>
-												<option>Education</option>
-												<option>Multi Sectoral</option>
-											</select>
-										</li>
-
-										<!--======= FORM =========-->
-										<li class="col-sm-3">
+							<!--======= FORM =========-->
+							<li class="col-sm-3">
 											<!-- <label>No of Bedrooms</label>
 											<select class="selectpicker">
 												<option>1</option>
