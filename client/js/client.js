@@ -15,7 +15,7 @@ Template.dashboard.events({
 // ============sms related options =================== //
 // the message sender name
 var ourCredentials = "TransGov"
-var content = "The KN Cirlce "
+var content = "The KN Circle Interchange development project is currently 70% complete. Contractors: Queiroz Galvao. Estimated cost: $77m"
 
 
 // run an if loop if there items in the data base
