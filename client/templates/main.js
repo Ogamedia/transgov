@@ -12,7 +12,16 @@ Template.projectDetails.events({
 	// 				return false   }      
 	// 				swal("Nice!", "Please check your sms on your phone: " + inputValue, "success"); });
 
-return	$('#phonenumber').modal('show');
+$('#phonenumber').modal('show');
 }
 
 })
+
+Template.modals.events({
+	'click #myModalLabel': function () {
+		event.preventDefault();
+
+		// get inputValue
+		this.
+	}
+});
