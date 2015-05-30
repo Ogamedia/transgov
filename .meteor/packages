@@ -20,4 +20,4 @@ cfs:ui
 cfs:autoform
 iron:router
 rajit:bootstrap3-datepicker
-yogiben:autoform-modals
+kevohagan:sweetalert
