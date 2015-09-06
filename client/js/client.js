@@ -14,8 +14,8 @@ Template.dashboard.events({
 
 // ============sms related options =================== //
 // the message sender name
-var ourCredentials = "TransGov"
-var content = "The KN Circle Interchange development project is currently 70% complete. Contractors: Queiroz Galvao. Estimated cost: $77m"
+var ourCredentials = "500Apprentices"
+var content = "Sandy Beauty Salon wants to train interested youth in Hair styling , Braiding Of Hair, Weave on , Weave Cap Cutting Of Short Hair , Washing & Touch up.... Pedicure, Manicure, Acrylic Nails Lashes and many more call Sandys Hair & Beauty Salon On 0546278629 for more info"
 
 
 // run an if loop if there items in the data base
