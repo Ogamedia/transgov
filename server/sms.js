@@ -2,7 +2,9 @@
     this.unblock();
     try {
       var result = HTTP.call("GET", "https://api.smsgh.com/v3/messages/send?",
-      {
+        
+    // Temporary API key to showcase demo: Code belongs to the Ogamedia Foundation.  
+       {
         params:
         {
           From: smsOptions.From,
@@ -22,3 +24,4 @@
   }
 }
 });
+
