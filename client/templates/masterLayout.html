@@ -1,8 +1,14 @@
 <template name="masterLayout">
-
-	
 	{{> navigation}}
 	{{> modals}}
 	{{> yield}}
 	{{> footer}}
+
+</template>
+
+<template name="dashboardLayout">
+    <header>
+        {{> mainNavigation}}
+    </header>
+    {{> yield}}
 </template>
