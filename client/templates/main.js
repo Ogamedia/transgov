@@ -52,7 +52,12 @@ if (counter > 0) {
 			contents: content
 		};
 		// call for sms message
-		Meteor.call('sendMessage', smsOptions);
+		// Meteor.call('sendMessage', smsOptions);
+// ============ivr related options =================== //
+        var ivr_options = {
+            phone_number: "0261096308"
+        };
+        Meteor.call('send_voice_message', ivr_options);
 	};
 
 };
